@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #ff0078;
+  --back-color: white;
+}
+body {
+  font-family: rubik;
+}
+.header-title {
+  font-family: Ubuntu, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+}
+#header-icon {
+  height: 60px;
+}
+.header {
+  display: flex;
+  /* background-color:grey; */
+  border-radius: 20px;
+  width: fit-content;
+  padding: 20px 20% 20px 20%;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 10px #cccccc;
+  position: relative;
+  top: 10px;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+  /* mix-blend-mode: color; */
+}
+
+.main-art {
+  /* background-color: white; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tumb {
+  height: 150px;
+  width: fit-content;
+  border-radius: 22px;
+  margin: auto;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  flex-grow: 1;
+  box-shadow: 0px 1px 10px #cccccc;
+  height: fit-content;
+}
+
+#add-btn {
+  display: flex;
+  background-color: #ff0078;
+  color: white;
+  font-family: rubik;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 1px 10px #cccccc;
+  z-index: 3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
